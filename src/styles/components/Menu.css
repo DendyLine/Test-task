@@ -1,0 +1,37 @@
+.menu__button {
+  width: auto;
+  height: auto;
+  background-color: transparent;
+  border-color: transparent;
+  padding: 1em;
+  display: flex;
+  column-gap: 5px;
+}
+
+.menu__button > * {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: var(--white);
+}
+
+.menu__popup {
+  background-color: var(--blue);
+  position: absolute;
+  width: 100%;
+  padding: 49px 20px;
+  top: 49px;
+  left: 0
+}
+
+@media screen and (min-width: 480px) {
+  .menu__popup {
+    top: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .menu__popup {
+    top: 95px;
+  }
+}

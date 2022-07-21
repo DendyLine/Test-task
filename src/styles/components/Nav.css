@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+  column-gap: 37px;
+}
+
+.nav__list--vertical {
+  row-gap: 40px;
+  text-transform: uppercase;
+  flex-direction: column;
+}
+
+.nav__list--vertical li {
+  display: flex;
+  justify-content: center;
+}
