@@ -1,0 +1,8 @@
+.block{
+  padding: 45px 0;
+
+}
+
+.block:nth-of-type(even){
+  background-color: var(--light-blue);
+}

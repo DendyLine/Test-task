@@ -4,10 +4,18 @@
 
 body {
   font-family: Montserrat, sans-serif;
+  color: var(--black);
+}
+
+p{
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 175%;
 }
 
 body * {
   transition: all .2s cubic-bezier(0, 0, 0.2, 1);
+  -webkit-tap-highlight-color: transparent;
 }
 
 *, *::before, *::after {
@@ -22,3 +30,5 @@ body * {
   margin: 0 auto;
   padding: 0 20px;
 }
+
+

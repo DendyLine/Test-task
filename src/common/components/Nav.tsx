@@ -15,7 +15,7 @@ export const Nav = ({axis = 'horizontal'}: INavProps) => {
   return (
     <nav className='nav'>
       <ul className={cx('nav__list', (axis === 'vertical') && 'nav__list--vertical')}>
-        {links.map(link => <li><a href={link.to}>{link.label}</a></li>)}
+        {links.map(link => <li key={link.label}><a href={link.to}>{link.label}</a></li>)}
       </ul>
     </nav>
   );
