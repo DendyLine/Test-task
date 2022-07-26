@@ -1,0 +1,12 @@
+.examples{
+  display: grid;
+  grid-template-columns: 335px 335px;
+  row-gap: 15px;
+  column-gap: 155px;
+  overflow-x: auto;
+}
+@media screen and (min-width: 1024px){
+  .examples{
+    justify-content: center;
+  }
+}

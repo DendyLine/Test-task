@@ -1,12 +1,13 @@
 button {
   font-size: 15px;
   font-weight: 700;
-  width: 270px;
+  width: 335px;
   height: 60px;
   text-transform: uppercase;
   color: var(--white);
+  line-height: 175%;
   border: 2px solid transparent;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: var(--green);
   cursor: pointer;
 }
@@ -31,4 +32,11 @@ button:active {
 .header__button:active {
   color: var(--blue);
   background-color: var(--white);
+}
+@media screen and (min-width: 1024px){
+  button{
+    width: 270px;
+    height: 60px;
+    border-radius: 5px;
+  }
 }

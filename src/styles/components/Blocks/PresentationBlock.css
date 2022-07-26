@@ -6,3 +6,13 @@
   line-height: 140%;
   margin-bottom: 50px;
 }
+
+@media screen and (min-width: 1024px) {
+  .presentation-block p{
+    width: 432px;
+  }
+  .presentation-block .centered{
+    display: grid;
+    justify-content: normal;
+  }
+}

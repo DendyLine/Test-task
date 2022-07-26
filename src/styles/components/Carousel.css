@@ -1,0 +1,49 @@
+.carousel {
+  width: calc(100vw - 40px);
+  text-align: center;
+  overflow: hidden;
+}
+
+.carousel * {
+  scrollbar-color: transparent transparent; /* thumb and track color */
+}
+
+.carousel *::-webkit-scrollbar {
+  width: 0;
+}
+
+.carousel *::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.carousel *::-webkit-scrollbar-thumb {
+  background: transparent;
+  border: none;
+}
+
+/* Slides */
+
+.slides {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.slides::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+.slides::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 1px;
+}
+
+.slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.slides > .slide {
+  scroll-snap-align: start;
+}

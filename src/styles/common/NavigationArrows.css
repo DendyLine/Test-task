@@ -1,0 +1,22 @@
+.navigation-arrows{
+  display: flex;
+}
+
+
+.navigation-arrow{
+  width: 60px;
+  height: 60px;
+  border: 2px solid var(--blue);
+  border-radius: 15px;
+  background: var(--white);
+  margin: 0 auto;
+}
+.navigation-arrow--next .arrow{
+
+  transform: rotate(-90deg);
+}
+
+.navigation-arrow--previous .arrow{
+
+  transform: rotate(90deg);
+}

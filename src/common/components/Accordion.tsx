@@ -11,7 +11,9 @@ export const Accordion = ({children, title}: PropsWithChildren<IAccordionProps>)
   return (
     <div className={cx('accordion', isOpened ? 'accordion--opened' : 'accordion--closed')}>
       <div className='accordion__heading' onClick={() => setIsOpened(!isOpened)}>
-        <div className='accordion__indicator'></div>
+        <div className='accordion__indicator-container'>
+          <div className='accordion__indicator'></div>
+        </div>
         <h3>{title}</h3>
         <Arrow/>
       </div>

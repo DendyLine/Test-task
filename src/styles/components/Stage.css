@@ -1,0 +1,16 @@
+.stage {
+  width: 335px;
+  height: 615px;
+  padding: 28px;
+  border: 2px solid var(--blue);
+  border-radius: 15px;
+  margin-bottom: 25px;
+
+}
+
+@media screen and (min-width: 1024px) {
+  .stage{
+    width: 672px;
+    height: 389px;
+  }
+}
