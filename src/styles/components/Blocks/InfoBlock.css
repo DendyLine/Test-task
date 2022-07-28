@@ -1,3 +1,31 @@
 .info-block{
 
 }
+
+.info-block img{
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1024px){
+  .info-block .centered{
+    justify-content: normal;
+  }
+  .info-block h2{
+    text-align: start;
+  }
+
+  .info-block p{
+    width: 669.65px;
+    height: 130px;
+  }
+
+  .info-block img{
+    position: absolute;
+    Width: 489.5px;
+    Height: 283px;
+    left: 62.42%;
+    right: -28.33%;
+    top: 20.42%;
+    bottom: 21.77%;
+  }
+}

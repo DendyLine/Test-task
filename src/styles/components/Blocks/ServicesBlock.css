@@ -2,3 +2,20 @@
   display: grid;
   gap: 10px;
 }
+.services-block .bag{
+  display: none;
+  position: absolute;
+  Width: 113px;
+  Height: 128px;
+  left: 89.52%;
+  right: 7.55%;
+  top: 67.4%;
+  bottom: 76.2%;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 1400px) {
+  .services-block .bag{
+    display: flex;
+  }
+}

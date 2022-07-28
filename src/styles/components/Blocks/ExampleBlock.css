@@ -4,9 +4,23 @@
   row-gap: 15px;
   column-gap: 155px;
   overflow-x: auto;
+  margin-bottom: 15px;
 }
+.examples div{
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
 @media screen and (min-width: 1024px){
   .examples{
     justify-content: center;
+    gap: 32px
+  }
+  .examples div{
+    row-gap: 32px;
+  }
+  .examples-carousel .navigation-arrows{
+    display: none;
   }
 }

@@ -14,6 +14,10 @@ export const ContactBlock = () => {
         <div className='centered'>
         <button>Отправить</button>
         </div>
+        <div className='centered'>
+        <img className='contact-block__img' src='public/contactsImg.png'/>
+        </div>
+        <img className='call' src='public/phoneCall.243.png'/>
       </form>
 
     </Block>

@@ -1,3 +1,29 @@
-.contact-block p{
+.contact-block p {
   text-align: center;
+}
+
+.contact-block__img {
+  margin-top: 42px;
+}
+
+.contact-block .call {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .contact-block .call {
+    display: flex;
+    position: absolute;
+    Width: 306.26px;
+    Height: 268.03px;
+    left: 12.08%;
+    right: 77.17%;
+    top: 31.24%;
+    bottom: 9.43%;
+  }
+
+  .contact-block__img {
+    display: none;
+  }
+
 }

@@ -1,4 +1,6 @@
 .stage {
+  display: flex;
+  flex-direction: column;;
   width: 335px;
   height: 615px;
   padding: 28px;
@@ -8,9 +10,29 @@
 
 }
 
+.stage img{
+  width: 220px;
+}
+
+.blank.slide {
+  display: none;
+  width: calc(50vw - 535px);
+}
+
+
 @media screen and (min-width: 1024px) {
   .stage{
+    flex-direction: row;
+    align-items: center;
     width: 672px;
     height: 389px;
+  }
+
+  .blank.slide {
+    display: block;
+  }
+
+  .stage img{
+    width: 250px;
   }
 }

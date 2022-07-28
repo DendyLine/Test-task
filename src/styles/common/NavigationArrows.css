@@ -1,22 +1,37 @@
-.navigation-arrows{
+.arrow{
+  transform-origin: center;
+}
+
+.navigation-arrows {
   display: flex;
 }
 
+.navigation-arrow:hover .arrow path {
+  fill: var(--white);
 
-.navigation-arrow{
+}
+
+.navigation-arrow:hover {
+  background-color: var(--blue);
+}
+
+
+.navigation-arrow {
   width: 60px;
   height: 60px;
   border: 2px solid var(--blue);
   border-radius: 15px;
-  background: var(--white);
+  background: transparent;
   margin: 0 auto;
+
 }
-.navigation-arrow--next .arrow{
+
+.navigation-arrow--next .arrow {
 
   transform: rotate(-90deg);
 }
 
-.navigation-arrow--previous .arrow{
+.navigation-arrow--previous .arrow {
 
   transform: rotate(90deg);
 }

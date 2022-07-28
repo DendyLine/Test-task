@@ -1,5 +1,5 @@
 .carousel {
-  width: calc(100vw - 40px);
+  width: 100%;
   text-align: center;
   overflow: hidden;
 }
